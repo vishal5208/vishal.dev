@@ -1,0 +1,23 @@
+{
+	"cleanUrls": true,
+	"trailingSlash": false,
+	"redirects": [
+		{
+			"source": "/github",
+			"destination": "https://github.com/vishal5208"
+		},
+		{
+			"source": "/twitter",
+			"destination": "https://twitter.com/vd9119"
+		},
+		{
+			"source": "/linkedin",
+			"destination": "https://www.linkedin.com/in/vishal5208/"
+		},
+
+		{
+			"source": "/resume",
+			"destination": "https://drive.google.com/file/d/1ULx_qCIhF80OwmTyCEARKwjoBUBx_NtP/view?usp=drive_link"
+		}
+	]
+}
