@@ -9,7 +9,11 @@ const Projects = () => {
 				<title>Projects | Vishal D</title>
 			</Head>
 			<Navbar />
-			<main>
+			<main
+				style={{
+					paddingBottom: "300px",
+				}}
+			>
 				<section>
 					<div className="sec_title">
 						<h2>PROJECTS</h2>
@@ -17,12 +21,7 @@ const Projects = () => {
 					</div>
 				</section>
 
-				<section
-					className="projects_list"
-					style={{
-						paddingBottom: "200px",
-					}}
-				>
+				<section className="projects_list">
 					{projectList.map((ele, ind) => {
 						return (
 							<div className="projects_list-item" key={ind}>
@@ -94,9 +93,8 @@ const Projects = () => {
 						);
 					})}
 				</section>
-
-				<section></section>
 			</main>
+			<section></section>
 			<Footer />
 		</>
 	);
