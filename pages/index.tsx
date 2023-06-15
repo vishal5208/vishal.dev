@@ -36,7 +36,7 @@ const Home = () => {
 								creating innovative solutions
 							</p>
 							<p className="heading_right-desc">
-								When I'm not coding or enjoying{" "}
+								When I&apos;m not coding or enjoying{" "}
 								<Highlight color="#E96479" type="circle">
 									Korean dramas
 								</Highlight>{" "}

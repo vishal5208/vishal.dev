@@ -22,10 +22,10 @@ export default function Contact() {
 				<section className="contact">
 					<div className="contact_left">
 						<p>
-							Reach out to me and let's start a conversation about your exciting
-							project or collaboration. Whether you have a blockchain venture in
-							mind or a groundbreaking idea waiting to be realized, I'm here to
-							bring it to life. Here&apos;s my{" "}
+							Reach out to me and let&apos;s start a conversation about your
+							exciting project or collaboration. Whether you have a blockchain
+							venture in mind or a groundbreaking idea waiting to be realized,
+							I&apos;m here to bring it to life. Here&apos;s my{" "}
 							<a href="mailto:vishald5208@gmail.com">email</a>.
 						</p>
 						<p>
