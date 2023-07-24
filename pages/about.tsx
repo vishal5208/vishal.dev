@@ -41,7 +41,7 @@ export default function Uses() {
 					<p>
 						Here is my{" "}
 						<a
-							href="https://amanraj.dev/Resume.pdf"
+							href="https://drive.google.com/file/d/12BsNwzMpkVMeU13dyVlY1K99nVlQ1UJV/view?usp=drive_link"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
