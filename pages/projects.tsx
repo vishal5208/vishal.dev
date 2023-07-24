@@ -107,18 +107,18 @@ const projectList = [
 		name: "ShwanSuraksha",
 		description:
 			"Developed and implemented a cutting-edge smart contract solution for pet dog insurance, leveraging Ethereum and Polygon networks to streamline policy management, automate claims processing, and ensure secure transactions.",
-		language: "Solidity | React",
+		language: "Solidity | React | IPFS",
 		link: "https://shwansuraksha1.on.fleek.co/",
 		githubLink: "https://github.com/vishal5208/UpdatedShwanSuraksha",
 	},
 	{
-		name: "Annapurna",
+		name: "CosmeticX",
 		description:
-			"Developed and implemented a blockchain-based hotel management system that reduces food waste and offers affordable, fresh meals by leveraging blockchain's transparency to track real-time food inventory and optimize utilization.",
+			" Developed end-to-end traceability system for cosmetics, ensuring transparency from production to customer. Reduced costs, resolved disputes efficiently, and empowered retailers to provide customers with detailed product information.",
 		language: "Solidity | React",
 
-		link: "https://annapurna-vishald5208.netlify.app/",
-		githubLink: "https://github.com/vishal5208/Annapurna",
+		link: "https://cosmeticx.on.fleek.co/",
+		githubLink: "https://github.com/vishal5208/CosmeticX",
 	},
 ];
 
