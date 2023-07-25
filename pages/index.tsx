@@ -14,7 +14,7 @@ const Home = () => {
 			<Navbar />
 			<main>
 				<div className="heading">
-					<Image src="/img/updated.jpg" alt="email" width={220} height={220} />
+					<Image src="/img/updated.jpg" alt="email" width={300} height={300} />
 					<div className="heading_right">
 						<RoughNotationGroup show={true}>
 							<h2 className="heading_right-title">Vishal Ashok Daragade</h2>
