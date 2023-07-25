@@ -46,7 +46,7 @@ const Home = () => {
 
 							<a
 								className="status"
-								href="https://drive.google.com/file/d/1ULx_qCIhF80OwmTyCEARKwjoBUBx_NtP/view?usp=drive_link"
+								href="https://drive.google.com/file/d/12BsNwzMpkVMeU13dyVlY1K99nVlQ1UJV/view?usp=sharing"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -84,7 +84,7 @@ const Home = () => {
 									<h3 className="sec_work_left_item-title">Dygnify</h3>
 									<div className="sec_work_left_item-subtitle">
 										<p>Blockchain Developer</p>
-										<p>January&apos;23 - Present</p>
+										<p>January&apos;23 - Jun&apos;23</p>
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
