@@ -106,7 +106,7 @@ const projectList = [
 	{
 		name: "ShwanSuraksha",
 		description:
-			"Developed and implemented a cutting-edge smart contract solution for pet dog insurance, leveraging Ethereum and Polygon networks to streamline policy management, automate claims processing, and ensure secure transactions.",
+			"Developed and implemented a cutting-edge smart contract solution for pet dog insurance to streamline policy management, automate claims processing, and ensure secure transactions.",
 		language: "Solidity | React | IPFS",
 		link: "https://shwansuraksha1.on.fleek.co/",
 		githubLink: "https://github.com/vishal5208/UpdatedShwanSuraksha",
