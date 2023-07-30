@@ -120,6 +120,16 @@ const projectList = [
 		link: "https://cosmeticx.on.fleek.co/",
 		githubLink: "https://github.com/vishal5208/CosmeticX",
 	},
+
+	{
+		name: "DecentralFlip",
+		description:
+			"Developed a decentralized head-tail bet game, leveraging Chainlink VRF (Verifiable Random Function) for generating random numbers, and Chainlink Keeper to initiate the game after the first player's entry for a predetermined period.",
+		language: "Solidity | React | Chainlink VRF | Chainlink Automation",
+
+		link: "https://oddevenbet5208.on.fleek.co/",
+		githubLink: "https://github.com/vishal5208/DecentralFlip",
+	},
 ];
 
 // export async function getStaticProps() {
