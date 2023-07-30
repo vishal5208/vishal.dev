@@ -46,7 +46,7 @@ const Home = () => {
 
 							<a
 								className="status"
-								href="https://drive.google.com/file/d/12BsNwzMpkVMeU13dyVlY1K99nVlQ1UJV/view?usp=sharing"
+								href="https://drive.google.com/file/d/1lfwj1o-LU3fTOV6RhnBAqnp4OyeZQBM3/view?usp=sharing"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
