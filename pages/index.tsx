@@ -69,14 +69,105 @@ const Home = () => {
 				</section>
 
 				<section>
+
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<Image
+									src="/img/homi.jpeg"
+									alt="dygnify"
+									width={120}
+									height={50}
+									className="sec_work_left_item-img"
+									draggable="false"
+								/>
+								<div>
+									<h3 className="sec_work_left_item-title">HOMINIDS
+									</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Full stack blockchian deeveloper</p>
+										<p>JUL&apos;23 - Present</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Spearheading development on Era‐Homi, a cross‐chain marketplace
+											integrating ZetaChain, Polygon, Bitcoin, and EVM blockchains for
+											seamless transactions and interoperability.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<Image
+									src="/img/ast.jpeg"
+									alt="dygnify"
+									width={120}
+									height={50}
+									className="sec_work_left_item-img"
+									draggable="false"
+								/>
+								<div>
+									<h3 className="sec_work_left_item-title">AST Consulting
+									</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Substrate & Frontend Developer</p>
+										<p>SEP&apos;23 - NOV&apos;23</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Led Substrate‐based trust layer development and crafted frontend
+											solutions for multiple projects as a skilled frontend engineer.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<Image
+									src="/img/2xsolution.svg"
+									alt="dygnify"
+									width={120}
+									height={50}
+									className="sec_work_left_item-img"
+									draggable="false"
+								/>
+								<div>
+									<h3 className="sec_work_left_item-title">2xSolution</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Blockchain Developer</p>
+										<p>Jun&apos;23 - Jul&apos;23</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Contributed to the development and auditing of smart contracts for
+											a multi‐platform Raffle project, concurrently engaging in frontend
+											development responsibilities.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<div className="sec_work">
 						<div className="sec_work_left">
 							<div className="sec_work_left_item">
 								<Image
 									src="/img/dygnify.png"
 									alt="dygnify"
-									width={100}
-									height={40}
+									width={120}
+									height={50}
 									className="sec_work_left_item-img"
 									draggable="false"
 								/>
@@ -84,7 +175,7 @@ const Home = () => {
 									<h3 className="sec_work_left_item-title">Dygnify</h3>
 									<div className="sec_work_left_item-subtitle">
 										<p>Blockchain Developer</p>
-										<p>January&apos;23 - Jun&apos;23</p>
+										<p>January&apos;23 - May&apos;23</p>
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
@@ -97,7 +188,13 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
+
+
+
+
 				</section>
+
+
 
 				<section>
 					<div className="sec_title">
