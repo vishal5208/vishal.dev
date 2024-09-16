@@ -69,6 +69,71 @@ const Home = () => {
 				</section>
 
 				<section>
+				<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<Image
+									src="/img/chainswap.png"
+									alt="dygnify"
+									width={10}
+									height={50}
+									className="sec_work_left_item-img"
+									draggable="false"
+								/>
+								<div>
+									<h3 className="sec_work_left_item-title">ChainSwap
+									</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Full Stack Blockchain Developer</p>
+										<p>March&apos;24 - Sep&apos;24 </p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+										Developed features including same‐chain swap, cross‐chain swap using CCIP,
+										privacy swap, instant swap, and Solana cross‐chain swap using CCTP
+										</li>
+										<li className="sec_work_left_item-ul-li">
+										Wrote and tested numerous smart contracts for swapping
+										</li>
+										<li className="sec_work_left_item-ul-li">
+										Gained experience with Uniswap V2 & V3.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<Image
+									src="/img/asap.png"
+									alt="dygnify"
+									width={120}
+									height={50}
+									className="sec_work_left_item-img"
+									draggable="false"
+								/>
+								<div>
+									<h3 className="sec_work_left_item-title">Asap Sniper Bot</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Blockchian deeveloper</p>
+										<p>Jan&apos;24 - Present</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Developed the Discord UI, integrated support for Ethereum, Binance Smart
+											Chain, and Base, and wrote and tested smart contracts for swapping tokens using
+											Uniswap V2 & V3
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
 
 					<div className="sec_work">
 						<div className="sec_work_left">
@@ -86,13 +151,12 @@ const Home = () => {
 									</h3>
 									<div className="sec_work_left_item-subtitle">
 										<p>Full stack blockchian deeveloper</p>
-										<p>JUL&apos;23 - Present</p>
+										<p>JUL&apos;23 - NOV&apos;23</p>
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-											Spearheading development on Era‐Homi, a cross‐chain marketplace
-											integrating ZetaChain, Polygon, Bitcoin, and EVM blockchains for
-											seamless transactions and interoperability.
+										orked on Era‐Homi, a cross‐chain marketplace that integrates ZetaChain,
+										Polygon, Bitcoin, and EVM blockchains for smooth and seamless transactions.
 										</li>
 									</ul>
 								</div>
@@ -121,8 +185,8 @@ const Home = () => {
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-											Led Substrate‐based trust layer development and crafted frontend
-											solutions for multiple projects as a skilled frontend engineer.
+										Worked on building a trust layer using Substrate and created frontend solutions
+										for several projects as a frontend developer
 										</li>
 									</ul>
 								</div>
