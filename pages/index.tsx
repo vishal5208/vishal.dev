@@ -14,29 +14,39 @@ const Home = () => {
 			<Navbar />
 			<main>
 				<div className="heading">
-					<Image src="/img/updated.jpg" alt="email" width={300} height={300} />
+					<Image
+						src="/img/profile.jpeg"
+						alt="Vishal Ashok Daragade"
+						width={300}
+						height={300}
+					/>
 					<div className="heading_right">
 						<RoughNotationGroup show={true}>
 							<h2 className="heading_right-title">Vishal Ashok Daragade</h2>
 							<h3 className="heading_right-subtitle">
-								Full Stack Blockchain Developer
+								Blockchain Developer | Solidity, DeFi, Smart Contracts
 							</h3>
 							<br />
 							<p className="heading_right-desc">
 								Hi, I’m Vishal, a{" "}
 								<Highlight color="#4E31AA" type="circle">
-									computer science
+									blockchain developer
 								</Highlight>{" "}
-								undergraduate from IIIT Vadodara. I’m curretly working as a
+								with 3+ years building production DeFi and Web3 products on EVM
+								chains. I wrote swap smart contracts at ChainSwap, a platform
+								with{" "}
 								<Highlight color="#C7D3FC" type="circle">
-									Blockchain Developer
+									$92M+ in lifetime trading volume
 								</Highlight>
-								with experience in developing and auditing projects on various
-								blockchain platforms. I thrive on solving complex problems and
-								creating innovative solutions
+								, including Chainlink CCIP and Circle CCTP cross-chain swaps.
+								Currently freelancing: building a gas-optimised arbitrage
+								engine on Base, a live Polymarket trading bot and an automated
+								P2P escrow bot that has completed 40+ deals.
 							</p>
 							<p className="heading_right-desc">
-								When I&apos;m not coding or enjoying{" "}
+								Winner of the ZetaChain BTC Challenge Hackathon ($10,000). I
+								thrive on solving complex problems and shipping production-grade
+								smart contracts. When I&apos;m not coding or enjoying{" "}
 								<Highlight color="#E96479" type="circle">
 									Korean dramas
 								</Highlight>{" "}
@@ -69,12 +79,62 @@ const Home = () => {
 				</section>
 
 				<section>
-				<div className="sec_work">
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<div>
+									<h3 className="sec_work_left_item-title">
+										Freelance Blockchain & Full Stack Developer
+									</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Self-employed, Remote</p>
+										<p>Jul&apos;25 - Present</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Deliver smart contracts, Node.js back ends and React and
+											TypeScript front ends for multiple clients.
+										</li>
+										<li className="sec_work_left_item-ul-li">
+											Built and deployed an automated Polymarket trading bot
+											running unattended in live markets.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<div>
+									<h3 className="sec_work_left_item-title">Decentia</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Smart Contract & Backend Developer</p>
+										<p>Sep&apos;24 - Jul&apos;25</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Built a low-latency, gas-optimised arbitrage engine on
+											Base with cross-DEX trade simulation.
+										</li>
+										<li className="sec_work_left_item-ul-li">
+											Set up and ran backend infrastructure including full nodes
+											for Base, Arbitrum and Ethereum.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className="sec_work">
 						<div className="sec_work_left">
 							<div className="sec_work_left_item">
 								<Image
 									src="/img/chainswap.png"
-									alt="dygnify"
+									alt="ChainSwap"
 									width={10}
 									height={50}
 									className="sec_work_left_item-img"
@@ -89,14 +149,17 @@ const Home = () => {
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-										Developed features including same‐chain swap, cross‐chain swap using CCIP,
-										privacy swap, instant swap, and Solana cross‐chain swap using CCTP
+											Wrote and tested swap smart contracts with Node.js
+											integrations and Uniswap V2/V3 support, on a platform that
+											has processed over $92 million in lifetime trading volume.
 										</li>
 										<li className="sec_work_left_item-ul-li">
-										Wrote and tested numerous smart contracts for swapping
+											Delivered same-chain swap, cross-chain swap (Chainlink
+											CCIP), privacy swap, instant swap and Solana cross-chain
+											swap (Circle CCTP).
 										</li>
 										<li className="sec_work_left_item-ul-li">
-										Gained experience with Uniswap V2 & V3.
+											Built the React user interface for the full swap product.
 										</li>
 									</ul>
 								</div>
@@ -104,13 +167,12 @@ const Home = () => {
 						</div>
 					</div>
 
-
 					<div className="sec_work">
 						<div className="sec_work_left">
 							<div className="sec_work_left_item">
 								<Image
 									src="/img/asap.png"
-									alt="dygnify"
+									alt="Asap Sniper Bot"
 									width={120}
 									height={50}
 									className="sec_work_left_item-img"
@@ -119,58 +181,27 @@ const Home = () => {
 								<div>
 									<h3 className="sec_work_left_item-title">Asap Sniper Bot</h3>
 									<div className="sec_work_left_item-subtitle">
-										<p>Blockchian deeveloper</p>
+										<p>Blockchain Developer</p>
 										<p>Jan&apos;24 - Present</p>
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-											Developed the Discord UI, integrated support for Ethereum, Binance Smart
-											Chain, and Base, and wrote and tested smart contracts for swapping tokens using
-											Uniswap V2 & V3
+											Developed the Discord UI, integrated support for Ethereum,
+											Binance Smart Chain, and Base, and wrote and tested smart
+											contracts for swapping tokens using Uniswap V2 & V3.
 										</li>
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
-					<div className="sec_work">
-						<div className="sec_work_left">
-							<div className="sec_work_left_item">
-								<Image
-									src="/img/homi.jpeg"
-									alt="dygnify"
-									width={120}
-									height={50}
-									className="sec_work_left_item-img"
-									draggable="false"
-								/>
-								<div>
-									<h3 className="sec_work_left_item-title">HOMINIDS
-									</h3>
-									<div className="sec_work_left_item-subtitle">
-										<p>Full stack blockchian deeveloper</p>
-										<p>JUL&apos;23 - NOV&apos;23</p>
-									</div>
-									<ul className="sec_work_left_item-ul">
-										<li className="sec_work_left_item-ul-li">
-										orked on Era‐Homi, a cross‐chain marketplace that integrates ZetaChain,
-										Polygon, Bitcoin, and EVM blockchains for smooth and seamless transactions.
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-
 
 					<div className="sec_work">
 						<div className="sec_work_left">
 							<div className="sec_work_left_item">
 								<Image
 									src="/img/ast.jpeg"
-									alt="dygnify"
+									alt="AST Consulting"
 									width={120}
 									height={50}
 									className="sec_work_left_item-img"
@@ -185,8 +216,11 @@ const Home = () => {
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-										Worked on building a trust layer using Substrate and created frontend solutions
-										for several projects as a frontend developer
+											Built a trust layer using the Substrate framework in Rust.
+										</li>
+										<li className="sec_work_left_item-ul-li">
+											Developed React front ends with Material UI for multiple
+											projects.
 										</li>
 									</ul>
 								</div>
@@ -194,13 +228,45 @@ const Home = () => {
 						</div>
 					</div>
 
+					<div className="sec_work">
+						<div className="sec_work_left">
+							<div className="sec_work_left_item">
+								<Image
+									src="/img/homi.jpeg"
+									alt="Hominids"
+									width={120}
+									height={50}
+									className="sec_work_left_item-img"
+									draggable="false"
+								/>
+								<div>
+									<h3 className="sec_work_left_item-title">HOMINIDS
+									</h3>
+									<div className="sec_work_left_item-subtitle">
+										<p>Full Stack Blockchain Developer</p>
+										<p>JUL&apos;23 - NOV&apos;23</p>
+									</div>
+									<ul className="sec_work_left_item-ul">
+										<li className="sec_work_left_item-ul-li">
+											Worked on Era-Homi, a cross-chain marketplace integrating
+											ZetaChain, Polygon, Bitcoin and EVM chains.
+										</li>
+										<li className="sec_work_left_item-ul-li">
+											Won first prize ($10,000) at the ZetaChain BTC Challenge
+											Hackathon.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div className="sec_work">
 						<div className="sec_work_left">
 							<div className="sec_work_left_item">
 								<Image
 									src="/img/2xsolution.svg"
-									alt="dygnify"
+									alt="2xSolution"
 									width={120}
 									height={50}
 									className="sec_work_left_item-img"
@@ -214,9 +280,9 @@ const Home = () => {
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-											Contributed to the development and auditing of smart contracts for
-											a multi‐platform Raffle project, concurrently engaging in frontend
-											development responsibilities.
+											Developed and audited smart contracts for a cross-platform
+											Raffle project; handled front-end work in React and
+											TypeScript.
 										</li>
 									</ul>
 								</div>
@@ -229,7 +295,7 @@ const Home = () => {
 							<div className="sec_work_left_item">
 								<Image
 									src="/img/dygnify.png"
-									alt="dygnify"
+									alt="Dygnify"
 									width={120}
 									height={50}
 									className="sec_work_left_item-img"
@@ -243,22 +309,16 @@ const Home = () => {
 									</div>
 									<ul className="sec_work_left_item-ul">
 										<li className="sec_work_left_item-ul-li">
-											Conducted a comprehensive analysis of the Dygnify smart
-											contracts and wrote test cases to ensure its functionality
-											and security.
+											Analysed and wrote test cases for smart contracts using
+											Chai and Mocha; ran security analysis with Slither, Echidna
+											and Etheno.
 										</li>
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
-
-
 				</section>
-
-
 
 				<section>
 					<div className="sec_title">
@@ -275,11 +335,15 @@ const Home = () => {
 							<li>&#183;</li>
 							<li>JavaScript</li>
 							<li>&#183;</li>
-							<li>Solidty</li>
+							<li>TypeScript</li>
+							<li>&#183;</li>
+							<li>Solidity</li>
 							<li>&#183;</li>
 							<li>Python</li>
 							<li>&#183;</li>
-							<li>Html</li>
+							<li>Rust</li>
+							<li>&#183;</li>
+							<li>HTML</li>
 							<li>&#183;</li>
 							<li>CSS</li>
 							<li>&#183;</li>
@@ -291,11 +355,15 @@ const Home = () => {
 							<li>&#183;</li>
 							<li>JavaScript</li>
 							<li>&#183;</li>
-							<li>Solidty</li>
+							<li>TypeScript</li>
+							<li>&#183;</li>
+							<li>Solidity</li>
 							<li>&#183;</li>
 							<li>Python</li>
 							<li>&#183;</li>
-							<li>Html</li>
+							<li>Rust</li>
+							<li>&#183;</li>
+							<li>HTML</li>
 							<li>&#183;</li>
 							<li>CSS</li>
 							<li>&#183;</li>
@@ -303,57 +371,65 @@ const Home = () => {
 					</div>
 					<div className="marquee marquee-2">
 						<ul className="marquee__content scroll">
-							<li>Frontend - React.js / Next.js</li>
+							<li>Blockchain - Solidity / EVM / DeFi</li>
 							<li>&#183;</li>
-							<li>Backend - Node.js / Nest.js</li>
+							<li>Frontend - React.js / TypeScript</li>
 							<li>&#183;</li>
-							{/* <li>App dev - React Native</li> */}
-							{/* <li>&#183;</li> */}
-							{/* <li>Database - MYSQL / MongoDB NoSQL / Redis</li> */}
-							{/* <li>&#183;</li> */}
+							<li>Backend - Node.js / Python</li>
+							<li>&#183;</li>
 						</ul>
 						<ul className="marquee__content scroll" aria-hidden="true">
-							<li>Frontend - React.js / Next.js</li>
+							<li>Blockchain - Solidity / EVM / DeFi</li>
 							<li>&#183;</li>
-							<li>Backend - Node.js / Nest.js</li>
+							<li>Frontend - React.js / TypeScript</li>
 							<li>&#183;</li>
-							{/* <li>App dev - React Native</li> */}
-							{/* <li>&#183;</li> */}
-							{/* <li>Database - MYSQL / MongoDB NoSQL / Redis</li> */}
-							{/* <li>&#183;</li> */}
+							<li>Backend - Node.js / Python</li>
+							<li>&#183;</li>
 						</ul>
 					</div>
 					<div className="marquee marquee-3">
 						<ul className="marquee__content scroll">
 							<li>Hardhat</li>
 							<li>&#183;</li>
-							<li>Remix IDE</li>
+							<li>Ethers.js</li>
 							<li>&#183;</li>
-							<li>OpenZeppelin</li>
+							<li>Uniswap V2/V3</li>
 							<li>&#183;</li>
-							<li>ChainLink</li>
+							<li>Chainlink CCIP</li>
+							<li>&#183;</li>
+							<li>Circle CCTP</li>
 							<li>&#183;</li>
 							<li>Slither</li>
 							<li>&#183;</li>
 							<li>Echidna</li>
 							<li>&#183;</li>
 							<li>Etheno</li>
+							<li>&#183;</li>
+							<li>IPFS</li>
+							<li>&#183;</li>
+							<li>Git</li>
 							<li>&#183;</li>
 						</ul>
 						<ul className="marquee__content scroll" aria-hidden="true">
 							<li>Hardhat</li>
 							<li>&#183;</li>
-							<li>Remix IDE</li>
+							<li>Ethers.js</li>
 							<li>&#183;</li>
-							<li>OpenZeppelin</li>
+							<li>Uniswap V2/V3</li>
 							<li>&#183;</li>
-							<li>ChainLink</li>
+							<li>Chainlink CCIP</li>
+							<li>&#183;</li>
+							<li>Circle CCTP</li>
 							<li>&#183;</li>
 							<li>Slither</li>
 							<li>&#183;</li>
 							<li>Echidna</li>
 							<li>&#183;</li>
 							<li>Etheno</li>
+							<li>&#183;</li>
+							<li>IPFS</li>
+							<li>&#183;</li>
+							<li>Git</li>
 							<li>&#183;</li>
 						</ul>
 					</div>

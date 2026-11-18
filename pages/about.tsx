@@ -11,29 +11,47 @@ export default function Uses() {
 			<main style={{ maxWidth: "900px" }}>
 				<section id="intro">
 					<h1>About</h1>
-					<p>I’m a final-year CSE student at IIITV and an intern at CertiK.</p>
+					<p>
+						I’m a blockchain developer with 3+ years building production DeFi and
+						Web3 products on EVM chains: smart contracts in Solidity, DeFi
+						integrations, and full stack delivery with Node.js, React and
+						TypeScript.
+					</p>
 					<p>
 						My expertise lies in
 						<ul>
 							<li>
-								<strong>Languages → [ Go, TypeScript / JavaScript ]</strong>
-							</li>
-							<li>
 								<strong>
-									Blockchain → [ Solidity, Eth, The Graph, Ocean Protocol ]
+									Languages → [ Solidity, JavaScript / TypeScript, Python, Rust
+									]
 								</strong>
 							</li>
 							<li>
 								<strong>
-									Frameworks → [ React.js, Next.js, Hooks/Redux, NodeJS ]
+									Blockchain → [ EVM, DeFi, Uniswap V2/V3, Chainlink CCIP,
+									Circle CCTP, IPFS, Substrate ]
 								</strong>
 							</li>
 							<li>
-								<strong>Database → [ MYSQL, MongoDB NoSQL, Redis ]</strong>
+								<strong>
+									Security & Testing → [ Slither, Echidna, Etheno, Hardhat,
+									Chai, Mocha ]
+								</strong>
 							</li>
 							<li>
 								<strong>
-									Others → [ AWS, Docker, GraphQL, Git/GitHub, CI/CD, Agile ]
+									Back-End → [ Node.js, REST APIs, Telegram Bot API, Discord Bot
+									API ]
+								</strong>
+							</li>
+							<li>
+								<strong>
+									Front-End → [ React, TypeScript, TailwindCSS, Material UI ]
+								</strong>
+							</li>
+							<li>
+								<strong>
+									Tools → [ Git/GitHub, Hardhat, Ethers.js, VS Code, Vim ]
 								</strong>
 							</li>
 						</ul>
@@ -50,19 +68,8 @@ export default function Uses() {
 					</p>
 
 					<p>
-						Aprart from professional things I love Anime, I have watched 200+
+						Apart from professional things I love Anime, I have watched 200+
 						shows. I love to travel and spend time with my family and friends.
-						Lately got a new hobbie of looking at crypto prices.
-					</p>
-					<p>
-						Say hi to my{" "}
-						<a
-							href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Girlfreind
-						</a>
 					</p>
 				</section>
 				<section className="about_body"></section>
