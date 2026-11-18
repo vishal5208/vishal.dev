@@ -667,6 +667,21 @@ section#intro em {
 	margin: 0;
 	margin-top: 0.75rem;
 }
+.project_links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.25rem;
+	margin-top: 0.75rem;
+}
+.project_link {
+	color: rgb(100, 255, 218);
+	font-size: 0.9rem;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.project_link:hover {
+	color: rgb(136, 146, 176);
+}
 .project_last {
 	display: flex;
 	color: rgb(136, 146, 176);

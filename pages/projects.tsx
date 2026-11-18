@@ -90,6 +90,21 @@ const Projects = () => {
 								</div>
 								<p className="project_title">{ele.name}</p>
 								<p className="project_desc">{ele.description}</p>
+								{ele.videos && (
+									<div className="project_links">
+										{ele.videos.map((video) => (
+											<a
+												key={video.url}
+												className="project_link"
+												href={video.url}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												{video.label}
+											</a>
+										))}
+									</div>
+								)}
 								<div className="project_last">
 									<p className="project_last_text">{ele.language}</p>
 								</div>
@@ -106,7 +121,16 @@ const Projects = () => {
 
 export default Projects;
 
-const projectList = [
+type Project = {
+	name: string;
+	description: string;
+	language: string;
+	link: string;
+	githubLink: string;
+	videos?: { label: string; url: string }[];
+};
+
+const projectList: Project[] = [
 	{
 		name: "P2P Escrow Bot",
 		description:
@@ -114,6 +138,16 @@ const projectList = [
 		language: "Node.js | Telegram Bot API | EVM (Base, BSC, Polygon)",
 		link: "",
 		githubLink: "",
+		videos: [
+			{
+				label: "Custodial escrow demo",
+				url: "https://youtu.be/P0WTRqCMqJ0",
+			},
+			{
+				label: "Multi-sig escrow demo",
+				url: "https://youtu.be/gDC_2MLsR28",
+			},
+		],
 	},
 	{
 		name: "Arbitrage Bot",
