@@ -156,6 +156,12 @@ const projectList: Project[] = [
 		language: "Node.js | Solidity | Base",
 		link: "",
 		githubLink: "",
+		videos: [
+			{
+				label: "Arbitrage bot demo",
+				url: "https://youtu.be/TS-CbsZMwOs",
+			},
+		],
 	},
 	{
 		name: "Polymarket Trading Bot",
