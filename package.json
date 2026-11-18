@@ -4,6 +4,9 @@
 	"version": "3.0.0",
 	"author": "Vishal Ashok Daragade <vishald5208@gmail.com>",
 	"main": "index.js",
+	"engines": {
+		"node": "22.x"
+	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
